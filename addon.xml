@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="service.plexskipintro" version="2021.12.17" name="Plex TV Skip Intro" provider-name="dinomight">
+<addon id="service.plexskipintrocredits" version="2026.10.12" name="Plex TV Skip Intro &amp; Credits" provider-name="thx1e">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.22.0" />
 	</requires>
 	<extension point="xbmc.service" library="service.py"/>
 	<extension point="xbmc.addon.metadata">
-        <description lang="en">Prompt a Skip Intro dialog Netflix style using plex metadata. Skips intro for your favourite shows</description>
-		<summary lang="en">Skip TV Shows Intro</summary>
+		<summary lang="en">Skip TV intros and TV/movie credits using Plex markers</summary>
+		<description lang="en">Shows a Netflix-style Skip Intro / Skip Credits button using the intro and credits markers your Plex server detects, for TV episodes and movies. Looks the item up in every Plex TV or movie library. Fork of Plex TV Skip Intro by dinomight; installs alongside it.</description>
 		<platform>all</platform>
-		<forum>-</forum>
-		<website>-</website>
-		<source>-</source>
-		<news>-</news>
+		<license>GPL-3.0-only</license>
+		<news>2026.10.12: Plex URL has no built-in default; a blank URL or token is filled from Plex TV Skip Intro. 2026.10.11: Skip Credits for movies (own on/off setting). 2026.10.10: Skip Credits, lookup across all Plex TV libraries (exact file match first), imports URL/token from Plex TV Skip Intro, optional on-screen lookup result.</news>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>

@@ -13,7 +13,7 @@
 			<itemgap>15</itemgap>
 			<orientation>vertical</orientation>
 			<control type="button" id="201">
-				<description>Later Button</description>
+				<description>Skip button (label set at runtime: Skip Intro / Skip Credits)</description>
 				<width>200</width>
 				<height>40</height>
 				<align>left</align>
@@ -22,7 +22,7 @@
 				<font>font12_title</font>
 				<textcolor>FFFFFFFF</textcolor>
 				<texturenofocus>button-nofo.png</texturenofocus>
-				<texturefocus>button-fo.png</texturefocus>				
+				<texturefocus>button-fo.png</texturefocus>
 				<textoffsetx>10</textoffsetx>
 			</control>
 		</control>

@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
-	<category label="32001">
-		<setting label="Plex Base Url" type="text" id="plex_base_url" default="http://192.168.0.100:32400"/>
-		<setting label="Authentication Token" type="text" id="auth_token" default="" />
-		<setting label="Timeout" type="number" id="default_timeout" default="10"/>
+	<category label="Plex">
+		<setting label="Plex Base Url (e.g. http://192.168.1.10:32400)" type="text" id="plex_base_url" default=""/>
+		<setting label="Authentication Token" type="text" id="auth_token" default=""/>
+		<setting label="Show lookup result when an episode starts" type="bool" id="show_lookup_result" default="true"/>
+	</category>
+	<category label="Skip Intro">
+		<setting label="Show Skip Intro button" type="bool" id="intro_enabled" default="true"/>
+		<setting label="Button timeout (seconds)" type="number" id="default_timeout" default="10"/>
+	</category>
+	<category label="Skip Credits">
+		<setting label="Show Skip Credits button for TV episodes" type="bool" id="credits_enabled" default="true"/>
+		<setting label="Show Skip Credits button for movies" type="bool" id="movie_credits_enabled" default="true"/>
+		<setting label="Button timeout (seconds)" type="number" id="credits_timeout" default="10"/>
 	</category>
 </settings>
